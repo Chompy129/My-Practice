@@ -1,0 +1,28 @@
+body{font-family: arial;}
+img[title]{border-style: solid; border-width: 5px;
+			border-color: LightSalmon;}
+#lala{font-size: 20px; font-family: "intensa fuente";
+		margin-right: 80%;}
+#lala::first-line{background-color: green;}
+
+ul.especial
+li:nth-child(odd){
+	background-color: gray}
+ul.especial
+li:nth-child(even){
+	background-color: pink} 
+
+/*	REFERENCIA
+<table style="border: 2px solid black"
+<th style="border: 2px solid black;width: 300px">Selector</th>
+<th style="border: 2px solid black">Ambito de aplicacion</th>
+*/
+table.tabla{border: 2px solid black; background-color: #404040; max-width: 1250px;
+			border-spacing: 08px; text-align: center}
+	.tabla tr th{border: 1px solid black; background-color: #A00000;}
+	.tabla tr td{background-color: #C47F00;border: 1px solid black}
+		.tabla tr td{text-align: left;}
+		.tabla tr td:nth-child(odd){border: 1px solid black;
+	 								/*color: white;*/
+	 		 						font-weight: bold;
+	 		 						text-align: inherit;}

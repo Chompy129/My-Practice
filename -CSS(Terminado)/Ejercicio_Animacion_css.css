@@ -1,0 +1,20 @@
+@-webkit-keyframes desplazar{
+    from{-webkit-transform: none; border-radius: 0;}
+    to{background-color: #900; color: #EEE;
+       -webkit-transform: rotateZ(3deg);                  /*Chrome, Safari, Opera, Ios, Android -webkit */
+       -moz-transform: rotateZ(3deg);                     /*Firefox -moz */   /*Opera -o- */
+       -ms-transform: rotateZ(3deg);                      /*IExplorer  -ms- */
+       transform: rotateZ(3deg);
+       border-radius: 10px;
+       margin-left: 20%;}
+}
+
+div{width: 400px; height: 40px;
+    padding: 10px; margin: 20px;
+    border: 1px solid #000;
+    background-color: #CCC; color: #333;
+    cursor: default;}
+
+div:hover{-webkit-animation: desplazar 2s 2 alternate linear forwards;
+          -moz-animation: desplazar 2s 2 alternate linear forwards;
+          animation: desplazar 2s 2 alternate linear forwards;}

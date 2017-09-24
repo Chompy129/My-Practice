@@ -1,0 +1,6 @@
+/*Tabla: caracteristicas generales*/
+table.lista-rgb{border-spacing: 0px; border: 1px solid #000;}
+/*tipos en tabla (color, HEX, RGB)*/
+table.lista-rgb tr th{background-color: #BBB;}
+/*Celdas de tabla*/
+table.lista-rgb tr td, table.lista-rgb tr th{border-spacing: 0px; border: 1px solid #000;padding: 8px;}

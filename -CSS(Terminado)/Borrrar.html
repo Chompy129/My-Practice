@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Transiciones</title>
+	<style type="text/css">#transEj1 div {   transition:all 2s ease-in-out;   perspective: 800px;   perspective-origin: 50% 100px; }
+#transEj1:hover #rotateX {  transform:rotateX(180deg);}
+#transEj1:hover #rotateY {  transform:rotateY(180deg);}
+#transEj1:hover #rotateZ {  transform:rotateZ(180deg);}</style>
+</head>
+<body>
+	<div id="transEj1" style="width: 600px; height: 200px; margin: 30px auto;">
+		<div id="rotateX" style="float: left; width: 30%; height: 200px; background: radial-gradient(#CCC, #555); margin-left: 3%; border-radius: 20px;"></div>
+		<div id="rotateY" style="float: left; width: 30%; height: 200px; background: radial-gradient(#CCC, #555); margin-left: 3%; border-radius: 20px;"></div>
+		<div id="rotateZ" style="float: left; width: 30%; height: 200px; background: radial-gradient(#CCC, #555); margin-left: 3%; border-radius: 20px;"></div>
+	</div>
+</body>
+</html>

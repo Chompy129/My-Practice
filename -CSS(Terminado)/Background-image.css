@@ -1,0 +1,18 @@
+/*Para el titulo*/
+h2{border: 5px double #890000; background-color: #AAA; width: 300px;
+   margin: 20px 0 0 30px; color: #00065B;}
+/*Datos generales para los DIV*/
+#Div1, #Div2, 
+#Div3, #Div4{width: 250px; height: 250px;
+			 margin: 30px; padding: 30px;
+			 border-style: none solid none solid; border-color: #000;
+			 font-weight: bold; font-size: 3em; background-repeat: repeat-y;}
+/*Caracteristicas para cada DIV*/
+#Div1{background-image: url(https://lh5.googleusercontent.com/-bAOzI95phGk/Ujg8_DKMo3I/AAAAAAAAAVE/qO8yAzEbSd8/s134/CU01030D_2.jpg);
+	 background-color: #F00; color: #FF0;}
+#Div2{background-image: url(https://lh5.googleusercontent.com/-pmos9pcSVh0/Ujg8_DkwrGI/AAAAAAAAAVA/Tph2ibmo6n4/s134/CU01030D_3.jpg);
+	  background-color: #FF0; color: #23FFEC;}
+#Div3{background-image: url(http://gasasistemas.com/wp-content/uploads/2014/08/fondo-repetido.jpg);
+	  background-color: #008000; color: #FFF;}
+#Div4{background-image: url(http://png.clipart.me/graphics/thumbs/130/seamless-abstract-hand-drawn-waves-texture-copy-that-square-to-the-side-and-you-ll-get-seamlessly-tiling-pattern-which-gives-the_130641584.jpg);
+	  background-color: #00F; color: #23FFEC;}

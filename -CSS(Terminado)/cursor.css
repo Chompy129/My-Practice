@@ -1,0 +1,13 @@
+/*DATOS GENERALES*/
+*{font-family: "Lucida Fax", "Lucida sans", sans-serif;}
+
+/*Links*/
+a:link, a:visited{color: #6BB0FF; text-decoration: none; font-weight: 700;}
+a:hover{color: #3A78FF;}
+
+/*Div*/
+div{float: left; margin: 25px; padding: 0;
+	width: 200px; height: 300px; border: 5px solid violet;}
+
+	#div1 a{cursor: help;}
+	#div2 a{cursor: zoom-in;}

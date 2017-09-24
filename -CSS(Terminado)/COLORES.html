@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Colores: Ejercicio CU01020D</title>
+	<link rel="icon" href="..\Recursos de Clases\Recursos de clases\img\CSS3.ico"/>
+	<link rel="stylesheet" type="text/css" href="Colores-color.css">
+</head>
+<body >
+	
+	<div class="pagina">
+		<h2>Colores ascendentes</h2>
+		<div class="colores">
+			<div>Color RGB(178, 34, 34) Transparencia(0.1)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.2)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.3)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.4)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.5)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.6)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.7)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.8)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(0.9)</div>
+			<div>Color RGB(178, 34, 34) Transparencia(1.0)</div>
+		</div>
+	</div><br>
+	<div class="pagina">
+		<h2>Colores descendentes</h2>
+		<div class="colores1">
+			<div>Color RGB(218, 165, 32) Transparencia(1.0)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.9)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.8)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.7)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.6)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.5)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.4)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.3)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.2)</div>
+			<div>Color RGB(218, 165, 32) Transparencia(0.1)</div>
+		</div>
+	</div><br><br><br>
+	<h2 id="title-code">CSS USADO PARA LOS CUADROS</h2>
+		<pre style="background-color: #000; width: 625px;float: left">
+			<code>
+	/*Codigo CSS*/
+/*titulo*/
+h2{ border:2px solid; margin:auto; background-color: #000; color:#fff;}
+
+/*Bloques de la pagina*/
+div.pagina, div.pagina1{border:solid; max-width: 30%; text-align: center; margin:auto;}
+
+/*Negrita*/
+div.colores div, div.colores1 div{font-weight: bold;height: 40px}
+
+/*Colores ascendentes*/
+.colores div:nth-child(1){background-color: rgba(178,34,34,0.1)}
+.colores div:nth-child(2){background-color: rgba(178,34,34,0.2)}
+.colores div:nth-child(3){background-color: rgba(178,34,34,0.3)}
+.colores div:nth-child(4){background-color: rgba(178,34,34,0.4)}
+.colores div:nth-child(5){background-color: rgba(178,34,34,0.5)}
+.colores div:nth-child(6){background-color: rgba(178,34,34,0.6)}
+.colores div:nth-child(7){background-color: rgba(178,34,34,0.7)}
+.colores div:nth-child(8){background-color: rgba(178,34,34,0.8)}
+.colores div:nth-child(9){background-color: rgba(178,34,34,0.9)}
+.colores div:nth-child(10){background-color: rgba(178,34,34,1.0)}
+/*FIN Colores ascendentes*/
+
+/*Colores descendentes*/
+.colores1 div:nth-child(1){background-color: rgba(218,165,32,1.0)}
+.colores1 div:nth-child(2){background-color: rgba(218,165,32,0.9)}
+.colores1 div:nth-child(3){background-color: rgba(218,165,32,0.8)}
+.colores1 div:nth-child(4){background-color: rgba(218,165,32,0.7)}
+.colores1 div:nth-child(5){background-color: rgba(218,165,32,0.6)}
+.colores1 div:nth-child(6){background-color: rgba(218,165,32,0.5)}
+.colores1 div:nth-child(7){background-color: rgba(218,165,32,0.4)}
+.colores1 div:nth-child(8){background-color: rgba(218,165,32,0.3)}
+.colores1 div:nth-child(9){background-color: rgba(218,165,32,0.2)}
+.colores1 div:nth-child(10){background-color: rgba(218,165,32,0.1)}
+/*FIN Colores descendentes*/</code>
+		</pre>
+		<div style="float: right">
+			<audio controls src="C:/Users/Angel/Music/ANGEL!!!/SLENDERMAN VS JEFF THE KILLER   BATALLAS LEGENDARIAS RAP.mp3">No es soportado</audio>
+		</div>
+		<div style="float: right"><p style="color: blue; font-weight: bold">SLENDERMAN VS JEFF THE KILLER <br>  BATALLAS LEGENDARIAS RAP >>></p></div>
+</body>
+</html>

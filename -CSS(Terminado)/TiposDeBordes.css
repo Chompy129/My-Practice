@@ -1,0 +1,13 @@
+/*DATOS DEL ARCHIVO*/
+body{text-align: center; width: 800px;}
+/*titulo*/
+h1{text-decoration: underline; font-family: "lucida console", arial;}
+/*Definición de los bordes para div 1*/
+#first-div{border-width: 10px 20px 10px 30px;
+		   border-style: dotted dashed double groove;
+		   border-color: #0F0 #00F #A52A2A #2F4F4F;}
+/*Definición de los bordes para div 2*/
+#second-div{border-top: 30px inset #B22222;
+			border-right: 22px solid #DAA520;
+			border-bottom: 25px double #4B0082;
+			border-left: 17px dotted #808000;}

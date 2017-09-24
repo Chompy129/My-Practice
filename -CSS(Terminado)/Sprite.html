@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta desription="Los sprites son geniales.">
+	<title>Sprite</title>
+	<style type="text/css">/* Curso CSS estilos aprenderaprogramar.com*/
+		*{font-family: arial; }
+		#barra {height: 40px; background-image: url("Sprite/barra.png"); margin-bottom:30px;}
+		li {list-style-type: none;}
+		#itemsMenu li {height: 45px; line-height:2em; margin-top: 5px;/* float: left; margin-left: 20px;*/}
+		#itemsMenu li div { height: 40px; width:40px; margin-right:15px; background-image: url("Sprite/cuatroIconos.png"); float:left;}
+		#itemsMenu li:nth-child(1) div {background-position: 0px;}
+		#itemsMenu li:nth-child(2) div {background-position: 40px;}
+		#itemsMenu li:nth-child(3) div {background-position: 80px;}
+		#itemsMenu li:nth-child(4) div {background-position: 120px;}
+	</style>
+</head>
+<body>
+<h2>Programacion</h2>
+<!-- menu -->
+<div>
+<div>Menú</div>
+<div id="barra"></div>
+<ul id="itemsMenu">
+<li><div></div><a href="#">Inicio</a></li>
+<li><div></div> <a href="libros.html">Libros de programación</a> </li>
+<li><div></div> <a href="cursos.html">Cursos de programación</a> </li>
+<li><div></div> <a href="humor.html">Humor informático</a> </li>
+</ul>
+</div>
+<!-- fin menu -->
+</body>
+</html>

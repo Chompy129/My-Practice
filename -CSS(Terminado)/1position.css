@@ -1,0 +1,12 @@
+/*Para los div de padre*/
+#padre div{width: 300px; height: 300px;
+		   margin: 40px; padding: 30px;
+		   position: relative;
+		   border: 2px solid #000;}
+	/*Caracteristicas individuales*/
+	#div1{background-color: #FF0000;
+		  left: 200px; top: 100px;}
+	#div2{background-color: #008000;
+		  right: 50px; bottom: 50px;}
+	#div3{background-color: #0000FF;
+		  left: 450px; bottom: 300px;}

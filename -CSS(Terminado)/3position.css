@@ -1,0 +1,17 @@
+/*DATOS GENERALES*/
+*{font-family: arial}
+body{margin: 0;}
+/*Aviso de Cookies*/
+#cookie div{background-color: #FF0; font-weight: bold; font-size: 1.5em;
+	      text-align: center; height: 100px; position: fixed; left: 25%; width: 50%;}
+/*Tamaño de imagenes*/
+img{margin: 100px 0 0 0;}
+/*Caracteristicas de page*/
+#page{width: 50%; background-color: #CCC; margin: auto;
+	  border-right: 6px solid #000; border-left: 6px solid #000; border-bottom: 6px solid #000}
+/*Parrafos dentro de page*/
+#page p{margin-left: 15%; margin-right: 15%; text-align: justify;
+		font-size: 1.2em;}
+/*Listas dentro de page*/
+#page ul{list-style-type: disc; margin: 0 15% 0 15%; font-size: 1.2em}
+/*FIN page*/

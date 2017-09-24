@@ -1,0 +1,28 @@
+/*DATOS GENERALES*/
+*{font-family: arial;}
+
+/*Lista*/
+ul{width: 400px;
+   background-color: #FA0;
+   border: 3px solid #000;}
+	/*Elementos de la lista*/
+
+	li:nth-child(odd){font-weight: bold;}
+
+	.lipr{list-style-type: disc; list-style-position: outside;}
+
+	.lise{list-style-type: circle; list-style-position: inside;}
+
+	.litr{list-style: square inside;}
+
+	.licu{list-style-type: none;}
+
+	.liqu{list-style: decimal outside;}
+
+	.lisex{list-style: decimal-leading-zero outside;}
+
+	.lisep{list-style: lower-roman inside;}
+
+	.lioc{list-style: upper-alpha inside;}
+
+	.lino{list-style: disc outside url(https://lh6.googleusercontent.com/-l7zUK30iIgw/UlfKjx_P3BI/AAAAAAAAAjI/sh8EjTxxZ3I/s38/CU01047D_2.png);}

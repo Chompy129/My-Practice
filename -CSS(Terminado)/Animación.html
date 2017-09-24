@@ -1,0 +1,32 @@
+
+<html>
+<head>
+    <title>Portal web - aprenderaprogramar.com</title> <meta charset="utf-8">
+    <style type="text/css">
+        
+        @keyframes animacion{
+            from { margin-left: 10%; color: red;}
+            25% { margin-left:22.5%; margin-top:10%; }
+            50% { margin-left:35%; margin-top:0%;}
+            75% { margin-left:47.5%; margin-top:10%; }
+            to { margin-left: 60%; }
+        }
+        
+        #bloquePub{ text-align:center; position:relative; width:250px;
+                  padding: 15px; font-family:arial; font-size:22px;
+                  font-weight:bold; background-color: yellow; }
+       img {padding: 10px;}    
+        .pubMov{ animation-name:animacion; animation-duration: 5s;
+             animation-iteration-count:1; animation-direction:alternate;
+            animation-timing-function:linear; animation-fill-mode: backwards;  animation-delay: 5s}
+       
+          .pubMov:hover{ animation-play-state:paused; }    
+    </style>
+</head>
+<body>
+    <div class="pubMov" id="bloquePub" style="border-radius: 40px;">aprenderaprogramar.com
+    <img src="http://i.imgur.com/afC0L.jpg" alt="Notepad++" ></a>
+    </div>
+    <span style="text-decoration: underline;">yosadqw</span>
+</body>
+</html>

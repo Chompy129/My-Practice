@@ -1,0 +1,35 @@
+*{font-family: "Comic Sans MS", Consolas;}
+
+code{color: #0F0; background-color: #000;}
+/*titulo*/
+h2{ border:2px solid; margin:auto; background-color: #000; color:#fff;}
+/*Codigo usado*/
+h2#title-code{background-color: #FFF; color: #000; border: 0;}
+/*Bloques de la pagina*/
+div.pagina{border:solid; max-width: 30%; text-align: center; margin:auto;}
+/*Negrita*/
+div.colores div, div.colores1 div{font-weight: bold;height: 40px}
+/*Colores ascendentes*/
+.colores div:nth-child(1){background-color: rgba(178,34,34,0.1)}
+.colores div:nth-child(2){background-color: rgba(178,34,34,0.2)}
+.colores div:nth-child(3){background-color: rgba(178,34,34,0.3)}
+.colores div:nth-child(4){background-color: rgba(178,34,34,0.4)}
+.colores div:nth-child(5){background-color: rgba(178,34,34,0.5)}
+.colores div:nth-child(6){background-color: rgba(178,34,34,0.6)}
+.colores div:nth-child(7){background-color: rgba(178,34,34,0.7)}
+.colores div:nth-child(8){background-color: rgba(178,34,34,0.8)}
+.colores div:nth-child(9){background-color: rgba(178,34,34,0.9)}
+.colores div:nth-child(10){background-color: rgba(178,34,34,1.0)}
+/*FIN Colores ascendentes*/
+/*Colores descendentes*/
+.colores1 div:nth-child(1){background-color: rgba(218,165,32,1.0)}
+.colores1 div:nth-child(2){background-color: rgba(218,165,32,0.9)}
+.colores1 div:nth-child(3){background-color: rgba(218,165,32,0.8)}
+.colores1 div:nth-child(4){background-color: rgba(218,165,32,0.7)}
+.colores1 div:nth-child(5){background-color: rgba(218,165,32,0.6)}
+.colores1 div:nth-child(6){background-color: rgba(218,165,32,0.5)}
+.colores1 div:nth-child(7){background-color: rgba(218,165,32,0.4)}
+.colores1 div:nth-child(8){background-color: rgba(218,165,32,0.3)}
+.colores1 div:nth-child(9){background-color: rgba(218,165,32,0.2)}
+.colores1 div:nth-child(10){background-color: rgba(218,165,32,0.1)}
+/*FIN Colores descendentes*/

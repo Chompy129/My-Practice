@@ -1,0 +1,11 @@
+/* Curso CSS estilos aprenderaprogramar.com*/
+*{font-family: arial;}
+body {width:410px; border-style: dotted; height: 240px;}
+div {border-style: solid; margin:7px; background-color: #FFEFD5;  }
+div div {padding: 5px; width: 60px; float: right;}
+p {margin:5px; clear: both;}
+.limpiador{padding:0; border-style:none;}
+#caja1{ border-color:red; } #caja2{ border-color:blue; } #caja3{ border-color:green;} #caja4{border-color:orange;}
+#caja1{ border-color:red;}
+
+div div:nth-child(even){float: left; clear: both;}

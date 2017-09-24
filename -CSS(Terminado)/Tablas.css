@@ -1,0 +1,22 @@
+/*ESTILOS DE TABLA*/
+/*General*/
+.tabla-destacada{width: 575px; border-spacing: 1px; font-family: arial, sans-serif; color: #444;}
+
+.tabla-destacada td,
+ .tabla-destacada th{width: 33%; padding: 15px;
+					 background-color: #E5E5E5;
+					 text-align: center; font-size: 20px;}
+
+.tabla-destacada td:last-child,
+ .tabla-destacada th:last-child{background-color: #DDEFBF;}
+/*FIN General*/
+
+/*Por partes*/
+.tabla-destacada thead th{border-bottom: 1px groove #FFF;
+						  border-radius: 10px 10px 0 0}
+
+.tabla-destacada tbody td{border-bottom: 1px groove #FFF;}
+
+.tabla-destacada tfoot th{border-radius: 0 0 10px 10px;}
+/*FIN Por partes*/
+/*FIN ESTILOS DE TABLA*/

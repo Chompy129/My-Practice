@@ -1,0 +1,7 @@
+/* Curso CSS estilos aprenderaprogramar.com*/
+*{font-family: arial; }
+body {width: 410px; border-style: dotted; }
+div {border-style: solid; margin: 20px; padding: 5px; background-color: #FFFF00;}
+p{text-align: justify; margin:15px; border-style:solid; border-color:grey; }
+img {margin:10px;float: right; width: 135px; height: 96px;}
+#Link{float: none;position: relative; right: 0}

@@ -1,0 +1,19 @@
+/*DATOS GENERALES*/
+*{font-family: arial; font-size: 1.05em;}
+
+/*Clases para texto*/
+.sombreRojo{font-size: 18px; text-shadow: 3px 3px 0 #F00;}
+.sombreAzul{font-size: 18px; text-shadow: -5px 5px 0 #00F}
+.sombraVerde{font-size: 18px; text-shadow: 0 0 5px #0F0}
+
+/*Div*/
+div{float: left; margin: 18px; padding: 8px; width: 240px; height: 300px;
+	border-width: 3px; border-style: solid; border-color: #0000FF;}
+
+	/*caracteristicas DIV por id*/
+	#div1{text-overflow: ellipsis; line-height: 105%;
+		  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+	#div2{overflow: hidden; line-height: 110%;}
+
+	#div3{text-align: justify; color: #8B4513; line-height: 120%;}

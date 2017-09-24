@@ -1,0 +1,9 @@
+/*Los div por id*/
+div{margin: 33px; padding: 25px; width: 100%; border: 5px solid rgb(255, 0, 0);}
+
+#div1{font-size: 18px; font-family: serif;}
+	#div1 span{font-variant: small-caps;}
+
+#div2{font-size: 14px; font-family: sans-serif; color: #B22222;}
+
+#div3{font: 2em fantasy;}

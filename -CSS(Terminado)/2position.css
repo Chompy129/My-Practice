@@ -1,0 +1,8 @@
+/*Caracteristicas generales para div*/
+div{position: absolute;}
+/*Los diferentes div*/
+#div1{width: 600px; height: 600px; background-color: #FFFF00;}
+#div2{width: 400px; height: 400px; background-color: #00FF00;
+	  left: 100px; top: 100px;}
+#div3{width: 100px; height: 100px; background-color: #0000FF;
+	  left: 250px; top: 250px;}

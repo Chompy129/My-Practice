@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Border-collapse</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<style type="text/css">
+		/*DATOS GENERALES*/
+		*{font: 1em "Ubuntu", arial, sans-serif;}
+		caption{font-size: 1.5em; font-weight: 800; font-style: italic; text-align: center;}
+
+		/*Estilos de tablas*/
+		#T-estilo1{width:600px; border-collapse: collapse;}
+			#T-estilo1 tr th, #T-estilo1 tr td{width: 20%; border: 8px solid gray;}
+
+		#T-estilo2{width: 100%; border: 2px solid brown;}
+			#T-estilo2 tr th, #T-estilo2 tr td{width: 20%; border: 2px solid brown;}
+
+		#T-estilo3{width: 500px; border-collapse: collapse;}
+			#T-estilo3 tr th, #T-estilo3 tr td{width: 100px; border-bottom: 6px solid #00F;}
+	</style>
+</head>
+<body>
+	<!--Una tabla de 5 columnas y 7 filas-->
+	<table id="T-estilo1">
+		<caption>Calificaciones</caption>
+		<tr>
+			<th>Persona</th>
+			<th>Matemáticas</th>
+			<th>Ciencias</th>
+			<th>Biologia</th>
+			<th>Química</th>
+		</tr>
+		<tr>
+			<td>Antonio</td>
+			<td>15</td>
+			<td>13</td>
+			<td>17</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Juan</td>
+			<td>18</td>
+			<td>18</td>
+			<td>14</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Maria</td>
+			<td>15</td>
+			<td>14</td>
+			<td>18</td>
+			<td>19</td>
+		</tr>
+		<tr>
+			<td>Miranda</td>
+			<td>20</td>
+			<td>20</td>
+			<td>09</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Soka</td>
+			<td>18</td>
+			<td>17</td>
+			<td>16</td>
+			<td>20</td>
+		</tr>		
+		<tr>
+			<td>Vanessa</td>
+			<td>14</td>
+			<td>17</td>
+			<td>08</td>
+			<td>18</td>
+		</tr>
+	</table>
+	<table id="T-estilo2">
+		<caption>Calificaciones</caption>
+		<tr>
+			<th>Persona</th>
+			<th>Matemáticas</th>
+			<th>Ciencias</th>
+			<th>Biologia</th>
+			<th>Química</th>
+		</tr>
+		<tr>
+			<td>Antonio</td>
+			<td>15</td>
+			<td>13</td>
+			<td>17</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Juan</td>
+			<td>18</td>
+			<td>18</td>
+			<td>14</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Maria</td>
+			<td>15</td>
+			<td>14</td>
+			<td>18</td>
+			<td>19</td>
+		</tr>
+		<tr>
+			<td>Miranda</td>
+			<td>20</td>
+			<td>20</td>
+			<td>09</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Soka</td>
+			<td>18</td>
+			<td>17</td>
+			<td>16</td>
+			<td>20</td>
+		</tr>		
+		<tr>
+			<td>Vanessa</td>
+			<td>14</td>
+			<td>17</td>
+			<td>08</td>
+			<td>18</td>
+		</tr>
+	</table>
+	<table id="T-estilo3">
+		<caption>Calificaciones</caption>
+		<tr>
+			<th>Persona</th>
+			<th>Matemáticas</th>
+			<th>Ciencias</th>
+			<th>Biologia</th>
+			<th>Química</th>
+		</tr>
+		<tr>
+			<td>Antonio</td>
+			<td>15</td>
+			<td>13</td>
+			<td>17</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Juan</td>
+			<td>18</td>
+			<td>18</td>
+			<td>14</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Maria</td>
+			<td>15</td>
+			<td>14</td>
+			<td>18</td>
+			<td>19</td>
+		</tr>
+		<tr>
+			<td>Miranda</td>
+			<td>20</td>
+			<td>20</td>
+			<td>09</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Soka</td>
+			<td>18</td>
+			<td>17</td>
+			<td>16</td>
+			<td>20</td>
+		</tr>		
+		<tr>
+			<td>Vanessa</td>
+			<td>14</td>
+			<td>17</td>
+			<td>08</td>
+			<td>18</td>
+		</tr>
+	</table>
+</body>
+</html>

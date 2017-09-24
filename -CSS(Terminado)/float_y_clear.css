@@ -1,0 +1,33 @@
+/*DATOS GENERALES*/
+*{font-family: arial; text-align: justify;}
+
+/*Primero*/
+/*Los Div*/
+.cubos div{width: 50px; height: 50px; margin-right: 5px; float: left;}
+	/*caracteristicas especiales div*/
+	.cubos div:nth-child(1){background-color: #F00;}
+	.cubos div:nth-child(2){background-color: #00F;}
+	.cubos div:nth-child(3){background-color: #0F0;}
+	.cubos div:nth-child(4){background-color: #FF0;}
+	.cubos div:nth-child(5){background-color: #F0F;}
+	.cubos div:nth-child(6){background-color: #0FF;}
+	.cubos div:nth-child(7){background-color: #555;}
+	.cubos div:nth-child(8){background-color: #CCC;}
+/*FIN Primero*/
+
+/*Segundo*/
+.Texto{background-color: #FF0; margin: 20px 0 20px 0; width: 100%; clear: both;}
+/*FIN Segundo*/
+
+/*Tercero*/
+.cubos2{clear: both;}
+.cubos2 div{width: 200px; height: 50px; margin-right: 5px; float: right;}
+	/*caracteristicas especiales div*/
+	.cubos2 div:nth-child(1){background-color: #F70;}
+	.cubos2 div:nth-child(2){background-color: #1FA;}
+	.cubos2 div:nth-child(3){background-color: #B5F;}
+/*FIN Tercero*/
+
+/*Cuarta*/
+.apr{background-color: #DEB887; width: 100%; clear: both; margin-top: 10px;}
+/*FIN Cuarta*/

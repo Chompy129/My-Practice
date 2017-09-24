@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>POKEMON (Ejercicio en HTML)</title>
+    <link rel="icon" href="http://artescritorio.com/wp-content/uploads/2015/11/monsterball-portada.png">
+    <style type="text/css">
+       /* Curso CSS aprenderaprogramar.com */
+		table {  color: #333; font-family: Helvetica, Arial, sans-serif; width: 896px; border: 2px solid #000; border-spacing: 0;}
+		td, th { border: 1px solid transparent; height: 30px;}
+		th{ background: #D3D3D3; font-weight: bold;  cursor: default;}
+		td { background: #FAFAFA; text-align: center; font: 1.3em arial;}
+		tr:nth-child(even) td { background: #F1F1F1; }  
+		tr:nth-child(odd) td { background: #EEeEeE; } 
+		tr td:hover { background: #666; color: #FFF; cursor: default;}
+		#at-a{background-color: #AAA; empty-cells: hide;}
+		caption{font: normal normal 800 1.5em/1.3em "Gisha", arial, sans-serif; text-align: left; color: #FFF; background-color: #222; text-indent: 15px;cursor: default; text-transform: capitalize;font-variant:small-caps;} 
+
+        /*bordes*/
+        table{border-radius: 0 0 20px 20px;}
+        tr:last-child td:last-child{border-bottom-right-radius: 18px;}
+        tr:last-child th{border-bottom-left-radius: 18px;}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>efectividad pokemon</caption>
+        <tr>
+            <th id="at-a">>>></th>
+            <th>Agua</th>
+            <th>Fuego</th>
+            <th>Planta</th>
+            <th>Vuelo</th>
+            <th>Roca</th>
+            <th>Lucha</th>
+        </tr>
+        <tr>
+            <th>Agua</th>
+            <td>--</td>
+            <td>++</td>
+            <td>--</td>
+            <td>+-</td>
+            <td>++</td>
+            <td>+-</td>
+        </tr>
+        <tr>
+            <th>Fuego</th>
+            <td>--</td>
+            <td>--</td>
+            <td>++</td>
+            <td>+-</td>
+            <td>--</td>
+            <td>+-</td>
+        </tr>
+        <tr>
+            <th>Planta</th>
+            <td>++</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>++</td>
+            <td>+-</td>
+        </tr>
+        <tr>
+            <th>Vuelo</th>
+            <td>+-</td>
+            <td>+-</td>
+            <td>++</td>
+            <td>+-</td>
+            <td>--</td>
+            <td>++</td>
+        </tr>
+        <tr>
+            <th>Roca</th>
+            <td>+-</td>
+            <td>++</td>
+            <td>+-</td>
+            <td>++</td>
+            <td>+-</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <th>Lucha</th>
+            <td>+-</td>
+            <td>+-</td>
+            <td>+-</td>
+            <td>--</td>
+            <td>++</td>
+            <td>+-</td>
+        </tr>
+    </table>
+</body>
+</html>

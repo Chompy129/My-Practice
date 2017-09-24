@@ -1,0 +1,14 @@
+/*DATOS DEL ARCHIVO*/
+body{text-align: center; width: 800px;}
+/*titulo*/
+h1{text-decoration: underline; font-family: "lucida console", arial;}
+/*Definición de los bordes para div 1*/
+#first-div{border-top-style: dotted; border-top-width: 10px; border-top-color: #0F0;/*arriba*/
+		   border-right-style: dashed; border-right-width: 20px; border-right-color: #00F;/*derecha*/
+	       border-bottom-style: double; border-bottom-width: 10px; border-bottom-color: #A52A2A;/*abajo*/
+		   border-left-style: groove; border-left-width: 30px; border-left-color: #2F4F4F;}/*izquierda*/
+/*Definición de los bordes para div 2*/
+#second-div{border-top-style: inset; border-top-width: 30px; border-top-color: #B22222;/*arriba*/
+			border-right-style: solid; border-right-width: 22px; border-right-color: #DAA520;/*derecha*/
+			border-bottom-style: double; border-bottom-width: 10px; border-bottom-color: #4B0082;/*abajo*/
+			border-left-style: dotted; border-left-width: 17px; border-left-color: #808000;}/*izquierda*/

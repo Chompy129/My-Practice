@@ -1,0 +1,14 @@
+/*DATOS GENERALES*/
+body{margin: auto; max-width: 1000px;}
+/*Titulo principal*/
+h1{color: #FFF; background-color: #000;font-size: 120%;
+	text-decoration: underline;}
+/*Titulo del menu*/
+h2{color: yellow; text-decoration: underline; font-size: 1.4em;
+	font-weight: bold;}
+/*La lista "Menu"*/
+#menu{background-color: #FA8072; color: #333;}
+	#menu ol li{font-family: "Book Antiqua", arial; font-size: 90%;} 
+/*El footer*/
+#footer{background-color: #F0E68C; font-size: 105%;
+		color: #AAA; width: 240px;}
