@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Curso JavaScript aprenderaprogramar.com</title> <meta charset="utf-8">
+<script type="text/javascript">
+function mostrarMensaje1() {  
+	var edad= prompt ('Por favor introduce edad:');
+	if (edad =="") { alert ('No has introducido edad'); }
+	edad = Number(edad);
+    switch (edad) {
+        case 0: alert ("Acaba de nacer hace poco. No ha cumplido el año"); break;
+        case 18: alert ("Está justo en la mayoría de edad"); break;
+        case 65: alert ("Está en la edad de jubilación"); break;
+        default: alert ("La edad no es crítica"); break;
+    }
+}
+</script>
+</head>
+<body>
+<div>
+<p>Aquí un párrafo de texto situado antes de la imagen, dentro de un div contenedor</p>
+<img onclick="mostrarMensaje1()" src="http://i.imgur.com/afC0L.jpg" alt="Notepad++" title="Notepad++, un útil editor de texto">
+<p onclick ="alert('Alerta JavaScript')" style="color: #D2691E;">Aquí otro párrafo de texto. JavaScript es un lenguaje utilizado para dotar de efectos dinámicos a las páginas web.
+</p>
+</div>
+</body>
+</html>

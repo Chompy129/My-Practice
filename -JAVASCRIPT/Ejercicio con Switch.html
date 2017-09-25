@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Switch es Extraño</title>
+	<script type="text/javascript">
+		function dimeTipoMotor(){
+			tipo= Number(prompt("Dime un tipo de motor:\nEstán disponibles el número 1, 2, 3 y 4"))
+			switch(tipo){
+				case 0: alert("No hay establecido un valor definido para el tipo de bomba."); break;
+				case 1: alert("La bomba es una bomba de agua."); break;
+				case 2: alert("La bomba es una bomba de gasolina."); break;
+				case 3: alert("La bomba es una bomba de hormigón."); break;
+				case 4: alert("La bomba es una bomba de pasta alimenticia."); break;
+				default: alert("No existe un valor válido para tipo de bomba");
+			}//Fin Switch
+		}//Fin de la función
+	</script>
+</head>
+<body>
+	<h1 style="cursor: pointer; outline: 10px solid #555; background-color: #000; color: #FFF; text-align: center; font-family: arial;" onclick="dimeTipoMotor()">PRESIONAME</h1>
+</body>
+</html>

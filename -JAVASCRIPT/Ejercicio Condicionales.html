@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Condicionales</title>
+	<style type="text/css">
+		div{margin: auto; width: 500px; height: 400px;}
+		div button{position: relative; top: 150px; left: 155px;}
+		.boton1{
+			border: none;
+			outline: none;
+			width: 160px; height: 90px;
+			margin: 10px;
+			background: radial-gradient(#F00, #A00);
+			border-radius: 15px;
+			box-shadow: 0 10px #333;
+			display: inline-block;
+			cursor: pointer;
+			transform: translateY(-7px);
+		}
+		.boton1 span{
+			font: normal normal 700 1.4em/1em arial;
+			text-transform: uppercase;
+			color: #FFF;
+			text-shadow: 0 1px #FFF;
+		}
+		.boton1:hover{background: radial-gradient(#D00, #900);}
+		.boton1:hover span{
+			color: #EEE;
+		}
+		.boton1:active{
+			transform: translateY(0px);
+			box-shadow: 0 3px #111;
+		}
+	</style>
+	<script type="text/javascript">
+		function boton(){
+			alert("¡Bienvenido a crea tu rueda! (?)");
+			var aceptado = false; //Determina si el valor del usuario es aceptada
+			var diam= Number(prompt("Por favor D:\nEn metros, digame el diametro de su exepcional rueda. (xd)"));
+			var grosor= Number(prompt("Ahora.\nEn metros otra vez, el grosor de su rueda."));
+
+			//Determina si es aceptado
+			if(!(diam> 0) || !(grosor> 0)){
+				//Error
+				if (!(diam > 0)){alert("Error: no introdujo un diametro.")};//Si no se introduce diametro
+				if (!(grosor> 0)){alert("Error: no introdujo un grosor.")};//Si no se introduce grosor
+			}//aceptado
+			else{aceptado= true};
+
+			if (aceptado == true){//Si es aceptado sigue las siguientes condiciones
+				if(diam > 1.4){alert("Su rueda es para un vehículo grande :O")}
+				else if(diam <= 1.4 && diam > 0.8){alert("La rueda es para un vehículo mediano :)")}
+				else{alert("La rueda es para un vehículo pequeño :/")};
+
+				if(diam > 1.4 && grosor < 0.4 || diam <= 1.4 && diam > 0.8 && grosor < 0.25){alert("El grosor para esta rueda es inferior al recomendado.")}
+			}//Cierre de aceptado
+		}//Cierre de la función
+	</script>
+</head>
+<body>
+	<div>
+		<button type="button" class="boton1" onclick="boton()"><span>presioname</span></button>
+	</div>
+</body>
+</html>
