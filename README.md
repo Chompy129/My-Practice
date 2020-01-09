@@ -1,9 +1,10 @@
 # My Practice
-The place where i put all my progress.
-(_El lugar donde pongo todo mi progreso_)
+English
+The place where I'll upload all my progress learning to program.
+There are files written in Spanish as it is my native language, but I will try to write in English too.
+Here are some files coded in HTML, CSS, JavaScript, Java, C#, etc.
 
-There were files written in Spanish as it is my native language, but I will try to write in English too.
-(_Habran archivos escritos en español ya que ese es mi idioma natal, pero tratare de escribir en ingles tambien_)
-
-Here are some files coded in HTML, CSS, JavaScript, Java, C# and any other that i can use.
-(_Aqui estan algunos archivos como HTML, CSS, JavaScript, Java, C# y cualquier otro que pueda usar_)
+Spanish
+El lugar donde subire todo mi progreso aprendiendo a programar.
+Hay archivos escritos en español ya que ese es mi idioma natal, pero tratare de escribir en ingles tambien.
+Aqui estan algunos archivos como HTML, CSS, JavaScript, Java, C#, etc.
